@@ -16,4 +16,4 @@ echo "Disk Information:"
 echo "$disk_info"
 
 # You can continue to process and use the collected data as needed
-# For example, you can parse and analyze the data or send it to a log file.
+# For example, you can parse and analyze the data or send it to a log.

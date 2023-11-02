@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Gather system metrics and store the output in a variable
+cpu_info=$(lscpu)
+memory_info=$(free -m)
+disk_info=$(df -h)
+
+# Display the collected metrics
+echo "CPU Information:"
+echo "$cpu_info"
+
+echo "Memory Information:"
+echo "$memory_info"
+
+echo "Disk Information:"
+echo "$disk_info"
+
+# You can continue to process and use the collected data as needed
+# For example, you can parse and analyze the data or send it to a log file.
